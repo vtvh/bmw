@@ -1,0 +1,15 @@
+.ani{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  text-align:center;
+  line-height: 100px;
+
+  animation: myfirst 5s;
+}
+
+@keyframes myfirst {
+  from{background: red;}
+  to{background: yellow;}
+}
