@@ -13,3 +13,6 @@ traffic phai in chu k dc out
 
 ## Link chông chéo trong trang của mình sẽ tăng điểm SEO
 SEO
+
+## truong input an~
+          <input type="hidden" value="23678" name="postID" id="postID" />
