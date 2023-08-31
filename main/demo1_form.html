@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <form action="xuly.php" method="post">
+        <div class="input-group">
+          <label for="title">Post title:</label>
+          <input
+            type="text"
+            id="title"
+            name="title"
+            value="My latest trip to Bulgaria"
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="content">Post content:</label>
+          <textarea name="content" id="content" cols="50" rows="5">
+            Hope you enjoy it
+          </textarea>
+        </div>
+
+        <div class="input-group">
+          <button type="submit">Update Post</button>
+          <input type="hidden" value="23678" name="postID" id="postID" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8"/>
+        <title>
+            HTML5 LAYOUT
+        </title>
+        <style>
+          body{
+            margin: 0;
+          }
+            .wrapper{
+                width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                border: solid red 10px;
+            }
+
+            .header{
+                height: 100px;
+                background-color: aqua;
+                text-align: center;
+                line-height: 100px;
+            }
+
+            .nav{
+                width: auto;
+                height: 100px;
+                background-color: blueviolet;
+                text-align: center;
+                line-height: 100px;
+            }
+
+            .content{
+                width: 72%;
+                float: left;
+                height: 400px;
+                background-color: salmon;
+            }
+
+            .content_r{
+                width: 28%;
+                height: 400px;
+                float: right;
+                background-color: blanchedalmond
+
+            }
+
+            .footer{
+                background-color: darkgoldenrod;
+                height: 70px;
+                text-align: center;
+                line-height: 100px;
+                clear: both;
+            }
+        </style>
+    </header>
+    <body>
+        <div class="Wrapper">
+            <div class="header">Header</div>
+            <div class="nav">Menu</div>
+            <div class="content">Content</div>
+            <div class="content_r">Right Content</div>
+            <div class="footer">Footter</div>
+        </div>
+    </body>

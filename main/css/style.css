@@ -1,3 +1,33 @@
 body{
   background-color: peachpuff;
 }
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container form {
+    padding: 50px;
+    border-radius:2px;
+    border: 1px solid black;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+input,textarea {
+    flex: 6;
+}
+
+label {
+    line-height: 2;
+    flex: 2;
+}
+
+textarea {
+    height: 60px;
+}
